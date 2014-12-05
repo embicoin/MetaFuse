@@ -26,7 +26,7 @@ fuse.py came from [fusepy](http://github.com/terencehonles/fusepy)
 ## Install
 just run, no need to install.
 
-## Restriction
+## !!!Warnings!!!
 1. THIS TOOL IS ONLY FOR REFERENCE.
 1. Never trust this tool. Never use this tool for practical uses.
 1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't handle large files, or it costs too much.
