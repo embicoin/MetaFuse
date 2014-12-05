@@ -21,6 +21,7 @@ fuse.py came from [fusepy](http://github.com/terencehonles/fusepy)
 ## Usage
 1. install requests
 1. git clone https://github.com/utamaro/MetaFuse.git
+or just copy [fuse.py](https://raw.githubusercontent.com/utamaro/MetaFuse/master/fuse.py) and [metafuse.py](https://raw.githubusercontent.com/utamaro/MetaFuse/master/metafuse.py)
 1. mkdir test
 1. /metafuse.py test
 
