@@ -10,6 +10,7 @@ And even once metafuse.py is stopped and restart, files are restored from MetaDi
 
 ## Requirement
 * linux kernel supporting FUSE
+* python3
 * requests python module
 * FUSE 2.6 (or later) 
 
