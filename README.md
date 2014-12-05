@@ -33,12 +33,22 @@ just run, no need to install.
 1. Never trust this tool. Never use this tool for practical uses.
 1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't handle large files, or it costs too much.
 1. I checked only write/create/read files, and didn't check symlink, directory-related operations, and others.
-1. Even if you delete files, these are NOT deleted from MetaDisk. Don't create and delete files too frequently, or MetaDisk will be a MetaGarbage. I don't know how to delete files from MetaDisk. Please let me know.
+1. Even if you delete files, these are NOT deleted from MetaDisk NOW.  Don't create and delete files too frequently, or MetaDisk will be MetaGarbage. I understood that when  MetaDisk will start to work officially and no heartbeats occurs, garbage files will be deleted.
+
+## To be more improvement
+* Implementing Partial write/read. to do this, MetaDisk API must support partial uploading/downloading.
+* peridical uploading/downloading at sync timing of disk.
+
+## Background
+Most cloud strage services don't provide mounting for free plan because when evil people mount cloud strage, they write and read many many garbage data. But on MetaDisk, they don't want to do it becase it costs a lot. Free causes 'tragedy of commons', so  nothing is more expensive than free.
+
+I think many people want to use files on the net as if these are on their local file as cheaper as possible. Nobody want to download full 2 hours movie data to view a part of it for 1 minute, but they may want to use their favourite and native movie viewer, not in browser. 
+
+I hope this tool will be a proof of concept of my thought above, and
+when Storj/MetaDisk will be wildly used, I hope the concept will help more talent developers than me ^^).
+(But maybe anybody can come up with this  kind of tool, so this tool has no meaning...)
 
 
 ## Licence
 BSD license
 
-
-## Author
-[utamaro](https://github.com/utamaro)
