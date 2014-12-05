@@ -40,7 +40,7 @@ just run, no need to install.
 * peridical uploading/downloading at sync timing of disk.
 
 ## Background
-Most cloud strage services don't provide mounting for free plan because when evil people mount cloud strage, they write and read many many garbage data. But on MetaDisk, they don't want to do it becase it costs a lot. Free causes 'tragedy of commons', so  nothing is more expensive than free.
+Most cloud strage services don't provide mounting for free plan because when evil people mount cloud strage, they write and read many many garbage data. But on MetaDisk, they don't want to do this becase it costs a lot. When free causes 'tragedy of commons', nothing will be more expensive than free.
 
 I think many people want to use files on the net as if these are on their local file as cheaper as possible. Nobody want to download full 2 hours movie data to view a part of it for 1 minute, but they may want to use their favourite and native movie viewer, not in browser. 
 
