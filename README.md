@@ -13,6 +13,10 @@ And even once metafuse.py is stopped and restart, files are restored from MetaDi
 * requests python module
 * FUSE 2.6 (or later) 
 
+metafuse.py came mostly from http://github.com/terencehonles/fusepy/blob/master/examples/memory.py
+
+fuse.py came from [fusepy](http://github.com/terencehonles/fusepy)
+
 ## Usage
 1. install requests
 1. git clone https://github.com/utamaro/MetaFuse.git
@@ -24,9 +28,10 @@ just run, no need to install.
 
 ## Restriction
 1. THIS TOOL IS ONLY FOR REFERENCE.
-1. Never trust this tool. Never use this tool for actual use.
+1. Never trust this tool. Never use this tool for practical uses.
 1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't edit large files, or it costs too much.
-1. I checked only write/create/read files, and didn't check symlink, directory-related operations.
+1. I checked only write/create/read files, and didn't check symlink, directory-related operations, and others.
+
 
 ## Licence
 BSD license
