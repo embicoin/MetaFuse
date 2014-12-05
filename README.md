@@ -9,10 +9,10 @@ After you run metefuse.py and write files to mounted directory, the files and fi
 And even once metafuse.py is stopped and restart, files are restored from MetaDisk automatically.
 
 ## Requirement
-* linux kernel supporting FUSE
+* linux kernel supporting FUSE, maybe MacOS(I didn't check )
 * python3
 * ["requests" module](http://docs.python-requests.org/en/latest/)
-* FUSE 2.6 (or later) 
+* FUSE 2.6 (or later) ,[FUSE for OS X](http://osxfuse.github.io/)
 
 metafuse.py came mostly from http://github.com/terencehonles/fusepy/blob/master/examples/memory.py
 
