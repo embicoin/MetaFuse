@@ -35,7 +35,7 @@ just run, no need to install.
 1. I checked only write/create/read files, and didn't check symlink, directory-related operations, and others.
 1. Even if you delete files, these are NOT deleted from MetaDisk NOW.  Don't create and delete files too frequently, or MetaDisk will be MetaGarbage. I understood that when  MetaDisk will start to work officially and no heartbeats occurs, garbage files will be deleted.
 
-## To be more improvement
+## To improve more
 * Implementing Partial write/read. to do this, MetaDisk API must support partial uploading/downloading.
 * peridical uploading/downloading at sync timing of disk.
 
