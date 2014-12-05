@@ -31,7 +31,7 @@ just run, no need to install.
 1. Never trust this tool. Never use this tool for practical uses.
 1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't handle large files, or it costs too much.
 1. I checked only write/create/read files, and didn't check symlink, directory-related operations, and others.
-1. Even if you delete files, these are NOT deleted from MetaDisk. Don't create and delete files too frequently, or MetaDisk will be a MetaGarbage. I don't know how to delete files from MetaDisk. Please inform me if you know.
+1. Even if you delete files, these are NOT deleted from MetaDisk. Don't create and delete files too frequently, or MetaDisk will be a MetaGarbage. I don't know how to delete files from MetaDisk. Please let me know.
 
 
 ## Licence
