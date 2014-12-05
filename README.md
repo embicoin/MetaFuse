@@ -11,7 +11,7 @@ And even once metafuse.py is stopped and restart, files are restored from MetaDi
 ## Requirement
 * linux kernel supporting FUSE
 * python3
-* requests python module
+* ["requests" module](http://docs.python-requests.org/en/latest/)
 * FUSE 2.6 (or later) 
 
 metafuse.py came mostly from http://github.com/terencehonles/fusepy/blob/master/examples/memory.py
