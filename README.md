@@ -29,7 +29,7 @@ just run, no need to install.
 ## Restriction
 1. THIS TOOL IS ONLY FOR REFERENCE.
 1. Never trust this tool. Never use this tool for practical uses.
-1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't edit large files, or it costs too much.
+1. Every time you write files, these are uploaded to MetaDisk. So this tool is very inefficient. Don't handle large files, or it costs too much.
 1. I checked only write/create/read files, and didn't check symlink, directory-related operations, and others.
 
 
