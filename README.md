@@ -28,6 +28,9 @@ or just copy [fuse.py](https://raw.githubusercontent.com/utamaro/MetaFuse/master
 ## Install
 just run, no need to install.
 
+## Contribution
+Feel free to make any improvements, and to pull requests. Any comments are welcomed.
+
 ## !!!Warnings!!!
 1. THIS TOOL IS ONLY FOR REFERENCE.
 1. Never trust this tool. Never use this tool for practical uses.
