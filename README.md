@@ -12,7 +12,7 @@ And even once metafuse.py is stopped and restart, files are restored from MetaDi
 * linux kernel supporting FUSE, maybe MacOS(I didn't check )
 * python3
 * ["requests" module](http://docs.python-requests.org/en/latest/)
-* FUSE 2.6 (or later) ,[FUSE for OS X](http://osxfuse.github.io/)
+* FUSE 2.6 (or later) , or [FUSE for OS X](http://osxfuse.github.io/)
 
 metafuse.py came mostly from http://github.com/terencehonles/fusepy/blob/master/examples/memory.py
 
@@ -24,6 +24,8 @@ fuse.py came from [fusepy](http://github.com/terencehonles/fusepy)
 or just copy [fuse.py](https://raw.githubusercontent.com/utamaro/MetaFuse/master/fuse.py) and [metafuse.py](https://raw.githubusercontent.com/utamaro/MetaFuse/master/metafuse.py)
 1. mkdir test
 1. /metafuse.py test
+1. any files you write in ./test directory will be uploaded to MetaDisk.
+1. stop metafuse.py by ctrl-c and restart. you can access files you created in previous step.
 
 ## Install
 just run, no need to install.
@@ -43,7 +45,7 @@ Feel free to make any improvements, and to pull requests. Any comments are welco
 * peridical uploading/downloading at sync timing of disk.
 
 ## Background
-Most cloud strage services don't provide mounting for free plan because when evil people mount cloud strage, they write and read many many garbage data. But on MetaDisk, they don't want to do this becase it costs a lot. When free causes 'tragedy of commons', nothing will be more expensive than free.
+Most cloud strage services don't provide mounting for free plan because when evil people mount cloud strage, they write and read many many garbage data. But on MetaDisk, they don't want to do this because it costs a lot. When free causes 'tragedy of commons', nothing will be more expensive than free.
 
 I think many people want to use files on the net as if these are on their local file as cheaper as possible. Nobody want to download full 2 hours movie data to view a part of it for 1 minute, but they may want to use their favourite and native movie viewer, not in browser. One may want to get huge logs temporarily on one board computer, like raspberry pie, which is difficult to have additional HDD.
 
