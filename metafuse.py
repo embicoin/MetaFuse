@@ -181,6 +181,7 @@ class MetaDiskFS(LoggingMixIn, Operations):
 #   must i do anything to MetaDisk?　i dont know how to remove files from storj...
     def unlink(self, path):
         self.files.pop(path)
+        self.saveInfo()
 
 
     def utimens(self, path, times=None):
@@ -194,6 +195,14 @@ class MetaDiskFS(LoggingMixIn, Operations):
         self.files[path]['st_size'] = len(self.data[path])
         self.upload(path)
         return len(data)
+
+    def flush(self, path, fh):
+        logging.info("flush called")
+        return 0
+
+    def fsync(self, path, datasync, fh):
+        logging.info("fsync called")
+        return 0
 
 
 if __name__ == '__main__':
